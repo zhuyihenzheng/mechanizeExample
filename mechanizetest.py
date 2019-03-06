@@ -29,7 +29,7 @@ data = json.loads(response2.read())
 #outdata = json.dumps(data, ensure_ascii=False)
 
 text_file = open('autoPrintHtmlimage2.txt', "w")
-#idarr = ['sort', 'Relation', 'Air', 'Which', 'string', 'Swing by', 'Dating', 'job', 'AutoUnattend', 'Calendar', 'in_the_forest', 'ExciteGame', 'Favor', 'Gyu-Tan-Game', 'Calc', 'cmtout', 'v10', 'copyme', 'drecon', 'Forgotten', 'hiddenhtml', 'History', 'dater', 'SHOCK !', 'Block', 'The history', 'Crossword', 'Poster', 'Life', 'RLO', 'JPG', 'The Public Document "F"', 'notepad?', 'Anomaly Directories are Serial', 'Letter from Galaxy', 'A_Priceless_Treasure', 'comma', 'TimeMachine', 'Leak Leak Leak!!!', 'SNSisDANGER2', 'Property', 'ccTLD', 'ExPrtct', 'Footprint', 'Friend', 'paper book', 'Excel.lent', 'Lookfor', 'Where', 'localasterisk', 'Listen', 'Name', 'WLAN', 'Unlock', 'Binary_Ultra-Introduction', 'sleepy', 'Analyze', 'dotnet_branch', 'mod', 'Arithmetic', 'Chase(2) Lots of branches', 'LINK', 'Photo', 'E.X.E', 'BlackBox', 'LOG', 'Macro', 'Fuzzy', 'Melancholy Holiday(1) Broken Head', 'Screen', 'Starting', 'processing', 'Macro-Power', 'HiddenFile', 'Unconn', 'PDF-JPGS', 'Indeed', 'Notes', 'RunRanRun', 'Chase(1) Power of Image', 'WakeUp', 'Legacy', 'Fraud(2) The sound from deep water', 'Melancholy Holiday(2) Find the Profile', 'Kaiser', 'RNA', 'The_Sword', 'Fraud(1) Whistle blowing', 'DO U KNOW BASIC?', 'SSS', 'DH', 'Prime', 'Matryoshka64', 'bach', 'ShellScript', 'RSALibrary', 'RSAES', 'STRIKE', 'Mujulla', 'Chase(3) maldocker']
+#idarr = []
 for key, lists in data.items():
     for list in lists:
         text_file.write("------------------------------------------------" + '\r\n')
